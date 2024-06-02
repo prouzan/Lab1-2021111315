@@ -5,7 +5,6 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import random
 import copy
-# modify B1
 def read_text_file(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
@@ -15,10 +14,9 @@ def read_text_file(file_path):
         print(f"File not found: {file_path}")
         sys.exit(1)
 
-# modify C4
 def preprocess_text(text):
     # 将换行符和标点符号替换为空格，并转换为小写
-    text = re.sub(r'[^\w\s]', ' ', text)
+    text = re.sub(r'[^a-zA-Z\s]', ' ', text)
     text = text.replace('\n', ' ').lower()
     # 分割成单词列表
     words = text.split()

@@ -1,0 +1,5 @@
+word1 word2 worda word1 wordb word2 word2 wordc wordc worda word3 word1 wordb 	word2 word wordc word word
+word1, word2; word3: word1! word2? word3 - word1.^
+The program should** handle word1 word2 word3 properly.&&
+word1 wordb word word1 @@worda word3 wordc word2 word3 wordb word2 $$word worda worda %word3 word wordb word3
+The program should handle wordc word2 word properly.
