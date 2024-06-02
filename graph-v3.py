@@ -14,6 +14,7 @@ def read_text_file(file_path):
         print(f"File not found: {file_path}")
         sys.exit(1)
 
+# modify C4
 def preprocess_text(text):
     # 将换行符和标点符号替换为空格，并转换为小写
     text = re.sub(r'[^\w\s]', ' ', text)
